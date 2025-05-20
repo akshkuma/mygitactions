@@ -4,8 +4,8 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs-on: ubuntu-latest
-      steps:
-        - name: Greetings
-          run: echo "Hello"
-        - name: Print Bye
-          run: echo "Bye"
+    steps:
+      - name: Greetings
+        run: echo "Hello
+      - name: Print Bye
+        run: echo "Bye"
